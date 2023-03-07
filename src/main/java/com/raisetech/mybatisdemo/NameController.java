@@ -1,6 +1,5 @@
 package com.raisetech.mybatisdemo;
 
-import com.raisetech.mybatisdemo.Name;
 import com.raisetech.mybatisdemo.NameMapper;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,6 +20,4 @@ public class NameController {
         List<Name> names = nameMapper.findAll();
         return names;
     }
-
-
 }
