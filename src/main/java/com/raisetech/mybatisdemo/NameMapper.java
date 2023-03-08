@@ -10,5 +10,3 @@ public interface NameMapper {
     @Select("SELECT * FROM names")
     List<Name> findAll();
 }
-
-
